@@ -1,3 +1,13 @@
+'use strict'
+
+// ***************************************************
+// gulp-plugin-template (Use buffer)
+//
+// If you want to use stream to handle big files,
+// Please refer to
+// http://www.gulpjs.com.cn/docs/writing-a-plugin/dealing-with-streams/
+// ***************************************************
+
 const gutil = require('gulp-util')
 const through = require('through2')
 const PLUGIN_NAME = 'gulp_plugin'
