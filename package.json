@@ -1,0 +1,35 @@
+{
+  "name": "gulp-plugin-template",
+  "version": "0.0.0",
+  "description": "A node module template to quickly write a gulp plugin",
+  "repository": {
+    "url": "ulivz/gulp-plugin-template",
+    "type": "git"
+  },
+  "main": "index.js",
+  "bin": "cli.js",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "scripts": {
+    "test:cov": "jest --coverage && npm run lint",
+    "test": "jest && npm run lint",
+    "lint": "standard",
+    "fix": "standard --fix"
+  },
+  "author": "ulivz <chl814@foxmail.com>",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3",
+    "yargs": "^7.1.0"
+  },
+  "devDependencies": {
+    "jest-cli": "^19.0.0",
+    "standard": "^10.0.0"
+  }
+}
