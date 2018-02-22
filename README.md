@@ -1,24 +1,7 @@
 # gulp-plugin-template
 
-[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+A node module template to quickly write a gulp plugin
 
-[![NPM version](https://img.shields.io/npm/v/gulp-plugin-template.svg?style=flat)](https://npmjs.com/package/gulp-plugin-template) [![NPM downloads](https://img.shields.io/npm/dm/gulp-plugin-template.svg?style=flat)](https://npmjs.com/package/gulp-plugin-template) [![CircleCI](https://circleci.com/gh/ulivz/gulp-plugin-template/tree/master.svg?style=shield)](https://circleci.com/gh/ulivz/gulp-plugin-template/tree/master)  [![codecov](https://codecov.io/gh/ulivz/gulp-plugin-template/branch/master/graph/badge.svg)](https://codecov.io/gh/ulivz/gulp-plugin-template)
- [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/ulivz/donate)
-
-## Install
-
-```bash
-npm i gulp-plugin-template
-```
-
-## Usage
-
-```js
-const gulpPluginTemplate = require('gulp-plugin-template')
-
-gulpPluginTemplate()
-//=> foo
-```
 
 ## Contributing
 
