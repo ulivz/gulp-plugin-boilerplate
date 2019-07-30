@@ -1,5 +1,7 @@
 # gulp-plugin-template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ulivz/gulp-plugin-boilerplate.svg)](https://greenkeeper.io/)
+
 A node module template to quickly write a gulp plugin
 
 
